@@ -1,0 +1,46 @@
+{
+  "name": "ignitecertificate",
+  "version": "1.0.0",
+  "description": "Serverless aws-nodejs-typescript template",
+  "scripts": {
+    "dev": "serverless offline",
+    "deploy": "sls deploy -v",
+    "dynamo:start": "serverless dynamodb start"
+  },
+  "dependencies": {
+    "@middy/core": "^1.5.2",
+    "@middy/http-json-body-parser": "^1.5.2",
+    "aws-sdk": "^2.952.0",
+    "chrome-aws-lambda": "^10.1.0",
+    "dayjs": "^1.10.6",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "puppeteer": "^10.2.0",
+    "puppeteer-core": "^10.1.0",
+    "serverless-iam-roles-per-function": "^3.2.0",
+    "source-map-support": "^0.5.19",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.23.0",
+    "@types/aws-lambda": "^8.10.71",
+    "@types/node": "^14.17.5",
+    "copy-webpack-plugin": "^9.0.1",
+    "json-schema-to-ts": "^1.5.0",
+    "serverless": "^2.23.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^7.0.0",
+    "serverless-webpack": "^5.3.5",
+    "ts-loader": "^8.0.15",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.20.2",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:evertonpavan/ignite-serverless.git",
+  "author": "Everton Pavan <everton.pavan@sertao.ifrs.edu.br>",
+  "license": "MIT"
+}

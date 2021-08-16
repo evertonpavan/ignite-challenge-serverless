@@ -1,0 +1,8 @@
+node_modules
+keys.txt
+.vscode
+.serverless
+.dynamodb
+.webpack
+.npmignore
+.env
