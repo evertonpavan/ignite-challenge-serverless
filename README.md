@@ -75,3 +75,7 @@ serverless dynamodb start
 yarn dev
 ```
 
+<br />
+
+## Usando a Aplicação
+Para realização de **requisições** na aplicação, deve ser utilizado o **Insomnia** ou **Postman**, importando o [arquivo](insomnia/insomnia_ignite_challenge_serverless.json) de requisições.
