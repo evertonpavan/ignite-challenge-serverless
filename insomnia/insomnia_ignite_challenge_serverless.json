@@ -1,1 +1,111 @@
-{"_type":"export","__export_format":4,"__export_date":"2021-08-16T18:12:35.284Z","__export_source":"insomnia.desktop.app:v2021.3.0","resources":[{"_id":"req_c4deabb7aa75406bae2e4e5f23c795bf","parentId":"wrk_d482ff8a5df94cb2ac72f1436da97a34","modified":1629137499446,"created":1629134788463,"url":"{{ _.baseUrl }}/dev/todos/02204d17-f300-41b0-a5b9-415d5f52290c","name":"Create ToDo","description":"","method":"POST","body":{"mimeType":"application/json","text":"{\n\t\"title\": \"First TODO\",\n\t\"deadline\": \"2021-08-31\"\n}"},"parameters":[],"headers":[{"name":"Content-Type","value":"application/json","id":"pair_0cb6a7e35dab4f758c5cefc4bb3a9063"}],"authentication":{},"metaSortKey":-1629059482628,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"wrk_d482ff8a5df94cb2ac72f1436da97a34","parentId":null,"modified":1629134788430,"created":1629134788430,"name":"Ignite Challenge Serverless","description":"","scope":"collection","_type":"workspace"},{"_id":"req_ac8c9ebbf9744650979c40182f84998e","parentId":"wrk_d482ff8a5df94cb2ac72f1436da97a34","modified":1629135466304,"created":1629134788468,"url":"{{ _.baseUrl }}/dev/todos/02204d17-f300-41b0-a5b9-415d5f52290c","name":"List TODO","description":"","method":"GET","body":{},"parameters":[],"headers":[],"authentication":{},"metaSortKey":-1629059482578,"isPrivate":false,"settingStoreCookies":true,"settingSendCookies":true,"settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingRebuildPath":true,"settingFollowRedirects":"global","_type":"request"},{"_id":"env_7997fe31b5104690974ad830a4997d62","parentId":"wrk_d482ff8a5df94cb2ac72f1436da97a34","modified":1629134788435,"created":1629134788435,"name":"Base Environment","data":{"baseUrl":"http://localhost:3000"},"dataPropertyOrder":{"&":["baseUrl"]},"color":null,"isPrivate":false,"metaSortKey":1626964266267,"_type":"environment"},{"_id":"jar_fdb5f841154b4fa59f0bda9f2dbba454","parentId":"wrk_d482ff8a5df94cb2ac72f1436da97a34","modified":1629134788443,"created":1629134788443,"name":"Default Jar","cookies":[],"_type":"cookie_jar"},{"_id":"spc_59e8f2eabf234a07a76708a1293daf2d","parentId":"wrk_d482ff8a5df94cb2ac72f1436da97a34","modified":1629134788540,"created":1629134788448,"fileName":"Ignite Challenge Serverless","contents":"","contentType":"yaml","_type":"api_spec"}]}
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-08-16T18:12:35.284Z",
+    "__export_source": "insomnia.desktop.app:v2021.3.0",
+    "resources": [
+        {
+            "_id": "req_c4deabb7aa75406bae2e4e5f23c795bf",
+            "parentId": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "modified": 1629137499446,
+            "created": 1629134788463,
+            "url": "{{ _.baseUrl }}/dev/todos/02204d17-f300-41b0-a5b9-415d5f52290c",
+            "name": "Create ToDo",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"title\": \"First TODO\",\n\t\"deadline\": \"2021-08-31\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_0cb6a7e35dab4f758c5cefc4bb3a9063"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1629059482628,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "parentId": null,
+            "modified": 1629134788430,
+            "created": 1629134788430,
+            "name": "Ignite Challenge Serverless",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_ac8c9ebbf9744650979c40182f84998e",
+            "parentId": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "modified": 1629135466304,
+            "created": 1629134788468,
+            "url": "{{ _.baseUrl }}/dev/todos/02204d17-f300-41b0-a5b9-415d5f52290c",
+            "name": "List TODO",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1629059482578,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_7997fe31b5104690974ad830a4997d62",
+            "parentId": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "modified": 1629134788435,
+            "created": 1629134788435,
+            "name": "Base Environment",
+            "data": {
+                "baseUrl": "http://localhost:3000"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "baseUrl"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1626964266267,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_fdb5f841154b4fa59f0bda9f2dbba454",
+            "parentId": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "modified": 1629134788443,
+            "created": 1629134788443,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_59e8f2eabf234a07a76708a1293daf2d",
+            "parentId": "wrk_d482ff8a5df94cb2ac72f1436da97a34",
+            "modified": 1629134788540,
+            "created": 1629134788448,
+            "fileName": "Ignite Challenge Serverless",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
